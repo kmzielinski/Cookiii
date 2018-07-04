@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'webpack',
+1 verbose cli   'webpack-cli',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData webpack
+8 silly fetchPackageMetaData webpack-cli
+9 silly fetchNamedPackageData webpack
+10 silly mapToRegistry name webpack
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'webpack',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'webpack',
+13 silly mapToRegistry   name: 'webpack',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/webpack
+15 silly fetchNamedPackageData webpack-cli
+16 silly mapToRegistry name webpack-cli
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'webpack-cli',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'webpack-cli',
+19 silly mapToRegistry   name: 'webpack-cli',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+21 verbose request uri https://registry.npmjs.org/webpack
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 17:13:32
+24 verbose request id 621014d8968b5366
+25 http request GET https://registry.npmjs.org/webpack
+26 verbose request uri https://registry.npmjs.org/webpack-cli
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 17:13:32
+29 http request GET https://registry.npmjs.org/webpack-cli
+30 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.254.3.15:443
+31 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.254.3.15:443
+32 info attempt registry request try #2 at 17:13:44
+33 http request GET https://registry.npmjs.org/webpack-cli
+34 info attempt registry request try #2 at 17:13:44
+35 http request GET https://registry.npmjs.org/webpack
+36 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.254.3.15:443
+37 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.254.3.15:443
+38 info attempt registry request try #3 at 17:14:45
+39 http request GET https://registry.npmjs.org/webpack-cli
+40 info attempt registry request try #3 at 17:14:45
+41 http request GET https://registry.npmjs.org/webpack
+42 silly fetchPackageMetaData Error: connect ECONNREFUSED 10.254.3.15:443
+42 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+42 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+42 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+42 silly fetchPackageMetaData  error for webpack-cli { Error: connect ECONNREFUSED 10.254.3.15:443
+42 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+42 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+42 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+42 silly fetchPackageMetaData   code: 'ECONNREFUSED',
+42 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
+42 silly fetchPackageMetaData   syscall: 'connect',
+42 silly fetchPackageMetaData   address: '10.254.3.15',
+42 silly fetchPackageMetaData   port: 443 }
+43 silly fetchPackageMetaData Error: connect ECONNREFUSED 10.254.3.15:443
+43 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+43 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+43 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+43 silly fetchPackageMetaData  error for webpack { Error: connect ECONNREFUSED 10.254.3.15:443
+43 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:1018:11)
+43 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:1041:20)
+43 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+43 silly fetchPackageMetaData   code: 'ECONNREFUSED',
+43 silly fetchPackageMetaData   errno: 'ECONNREFUSED',
+43 silly fetchPackageMetaData   syscall: 'connect',
+43 silly fetchPackageMetaData   address: '10.254.3.15',
+43 silly fetchPackageMetaData   port: 443 }
+44 silly rollbackFailedOptional Starting
+45 silly rollbackFailedOptional Finishing
+46 silly runTopLevelLifecycles Finishing
+47 silly install printInstalled
+48 verbose stack Error: connect ECONNREFUSED 10.254.3.15:443
+48 verbose stack     at Object.exports._errnoException (util.js:1018:11)
+48 verbose stack     at exports._exceptionWithHostPort (util.js:1041:20)
+48 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+49 verbose cwd C:\Users\m012253\WebstormProjects\Cookiii\src
+50 error Windows_NT 6.1.7601
+51 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "webpack" "webpack-cli" "--save-dev"
+52 error node v6.10.3
+53 error npm  v3.10.10
+54 error code ECONNREFUSED
+55 error errno ECONNREFUSED
+56 error syscall connect
+57 error Error: connect ECONNREFUSED 10.254.3.15:443
+57 error     at Object.exports._errnoException (util.js:1018:11)
+57 error     at exports._exceptionWithHostPort (util.js:1041:20)
+57 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+57 error  { Error: connect ECONNREFUSED 10.254.3.15:443
+57 error     at Object.exports._errnoException (util.js:1018:11)
+57 error     at exports._exceptionWithHostPort (util.js:1041:20)
+57 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1086:14)
+57 error   code: 'ECONNREFUSED',
+57 error   errno: 'ECONNREFUSED',
+57 error   syscall: 'connect',
+57 error   address: '10.254.3.15',
+57 error   port: 443 }
+58 error If you are behind a proxy, please make sure that the
+58 error 'proxy' config is set properly.  See: 'npm help config'
+59 verbose exit [ 1, true ]
